@@ -177,6 +177,6 @@ main {
     .icons-sociais {
         display: flex;
         width: 70px;
-        gap: 8px;
+        gap: 10px;
     }
 }
