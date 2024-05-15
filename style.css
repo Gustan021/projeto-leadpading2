@@ -162,10 +162,10 @@ main {
         left: 10%;
     }
 
-    /* @media screen and (max-width: 340px) {
+    @media screen and (max-width: 340px) {
         .section1 p {
             font-size: 15px;
             width: 250px;
         }
-    } */
+    }
 }
