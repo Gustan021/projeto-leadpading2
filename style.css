@@ -138,15 +138,14 @@ main {
         top: 0;
         right: 0;
         gap: 0;
-        width: 60px;
+        width: 80px;
         margin-right: 10px;
-        gap: 5px;
+        gap: 15px;
     }
 
     .section1 {
         padding: 80px;
     }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -162,10 +161,21 @@ main {
         left: 10%;
     }
 
-    @media screen and (max-width: 340px) {
-        .section1 p {
-            font-size: 15px;
-            width: 250px;
-        }
+    .icons-sociais {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .section1 p {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .icons-sociais {
+        display: flex;
+        width: 70px;
+        gap: 8px;
     }
 }
