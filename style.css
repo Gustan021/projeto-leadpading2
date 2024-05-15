@@ -92,6 +92,31 @@ main {
     font-size: 15px;
 }
 
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--fontinter);
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.art1 {
+    padding: 40px;
+    background-color: #353436;
+}
+
+.art2 {
+    padding: 45px;
+    background-color: #B91C1C;
+}
+
+.art3 {
+    padding: 40px;
+    background-color: #481A8F;
+}
+
 @media screen and (max-width: 600px) {
     header {
         display: block;
@@ -119,7 +144,7 @@ main {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 553px) {
     header {
         width: 100%;
         display: flex;
@@ -145,6 +170,11 @@ main {
 
     .section1 {
         padding: 80px;
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
     }
 }
 
