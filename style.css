@@ -163,6 +163,7 @@ main {
 
     .icons-sociais {
         display: flex;
+        width: 70px;
         gap: 5px;
     }
 }
