@@ -99,20 +99,28 @@ main {
     font-family: var(--fontinter);
     color: white;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
+
 }
 
 .art1 {
+    width: 100%;
     padding: 40px;
     background-color: #353436;
 }
 
 .art2 {
-    padding: 45px;
+    width: 100%;
+    padding: 40px;
     background-color: #B91C1C;
 }
 
+.art2 p {
+    max-width: 300px;
+}
+
 .art3 {
+    width: 100%;
     padding: 40px;
     background-color: #481A8F;
 }
@@ -321,6 +329,10 @@ main {
 
     .vagas h2 {
         text-align: center;
+    }
+
+    .section4 .empregos {
+        height: 200px;
     }
 }
 
