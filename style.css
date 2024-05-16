@@ -225,6 +225,107 @@ main {
     font-weight: 600;
 }
 
+.section5 {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.section5 h2 {
+    font-family: var(--fontmukta);
+    color: #111827;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+
+.section5 main header {
+    background-color: #B91C1C;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+}
+
+.section5 main {
+    color: #111827;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+.section5 footer {
+    color: #353436;
+}
+
+.noticia {
+    background-color: #F3F4F6;
+    padding-bottom: 5px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.noticia main {
+    margin-top: 20px;
+}
+
+.noticia main h4 {
+    text-align: left;
+    margin-left: 15px;
+    color: #111827;
+    font-family: var(--fontmukta);
+}
+
+.noticia .pad-noticia {
+    padding: 10px;
+}
+
+.noticia footer p {
+    margin-top: 10px;
+    margin-left: 15px;
+    color: #353436;
+    font-family: var(--fontinter);
+    font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.section5 main footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #353436;
+}
+
+.section5-pad {
+    padding: 10px;
+}
+
+.footer-section5 {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+.section5 footer button {
+    width: 230px;
+    height: 45px;
+    background-color: #B91C1C;
+    color: white;
+    font-family: var(--fontinter);
+    border: 0;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
 @media screen and (max-width: 700px) {
     .section2 {
         display: flex;
@@ -239,10 +340,30 @@ main {
         text-align: center;
         padding: 10px;
     }
+
+    .art2 p {
+        max-width: 602px !important;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section5 .section5-pad {
+        width: 100%;
+    }
+
+    .art2 {
+        width: 100%;
+    }
+
+    .art2 p {
+        max-width: 1000px !important;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    header {
+    .header-principal {
         display: block;
         width: 400px;
         margin: 0 auto;
@@ -275,6 +396,10 @@ main {
     .section3 header {
         text-align: center;
     }
+
+    .section2 .art2 p {
+        width: 100%
+    }
 }
 
 
@@ -298,8 +423,7 @@ main {
         right: 0;
         gap: 0;
         width: 90px;
-        margin-right: 10px;
-        gap: 15px;
+        margin-right: 20px;
     }
 
     .section1 {
@@ -334,11 +458,51 @@ main {
     .section4 .empregos {
         height: 200px;
     }
+
+    .midiabox { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .midiabox footer {
+        width: 87%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: left;
+    }
+
+    .noticia main {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .noticia footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .noticia footer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .section1 p {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 414px) {
     .item-curso-diferente {
         height: 195px;
+    }
+
+    .midiabox { 
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -358,19 +522,43 @@ main {
     .icons-sociais {
         display: flex;
         width: 70px;
-        gap: 5px;
+    }
+
+    .midiabox { 
+        display: flex;
+        flex-direction: column;
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 390px) {
+    .section1 p {
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
     .section1 p {
         font-size: 15px;
-        width: 250px;
+        width: 80%;
     }
 
     .icons-sociais {
         display: flex;
         width: 70px;
-        gap: 10px;
+    }
+
+    .section5 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .midiabox { 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-principal {
+        width: 100%;
     }
 }
