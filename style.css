@@ -565,8 +565,7 @@ main {
 
     .footer-info3 p {
         word-wrap: break-word;
-        font-size: 8px;
-        height: 600;
+        font-size: 10px;
     }
 
     .red {
@@ -587,10 +586,14 @@ main {
     }
 
     .footer-icon-social svg {
-        width: 25px;
+        width: 30px;
     }
-    
+
     .art2  {
         width: 100%;
+    }
+
+    .footer-do-footer {
+        font-size: 2px;
     }
 }
