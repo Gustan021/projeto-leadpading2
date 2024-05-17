@@ -528,14 +528,15 @@ main {
     }
 
     .footer-info {
-        padding: 10px;
+        padding: 20px;
         word-wrap: break-word;
         width: 50%;
     }
 
     .footer-info-ultimo {
-        padding: 10px;
+        padding: 20px;
         width: 50%;
+        margin-left: 20px;
     }
 
 
@@ -549,7 +550,7 @@ main {
     }
 
     .footer-info  {
-        word-wrap: break-word;
+        padding-left: 5px;
         width: 50%;
     }
 
@@ -559,8 +560,8 @@ main {
     }
 
     .footer-info3 {
-        width: 100%;
-        
+        width: 80%;
+        margin-right: 50px;
     }
 
     .footer-info3 p {
@@ -570,7 +571,9 @@ main {
 
     .red {
         width: 100%;
-        flex-direction: row;
+        display: flex;
+        padding: 50px;
+        box-sizing: border-box;
     }
 
     .section-footer-final {
@@ -583,6 +586,10 @@ main {
 
     .logo-footer svg {
         width: 150px;
+    }
+
+    .footer-icon-social {
+        gap: 10px;
     }
 
     .footer-icon-social svg {
@@ -600,4 +607,13 @@ main {
     .footer-do-footer p {
         font-size: 10px;
     }
+
+    .svg-info svg {
+        width: 25px;
+    }
+
+    .svg-info svg {
+        width: 20px;
+    }
+
 }
