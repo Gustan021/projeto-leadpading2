@@ -115,10 +115,6 @@ main {
     background-color: #B91C1C;
 }
 
-.art2 p {
-    max-width: 300px;
-}
-
 .art3 {
     width: 100%;
     padding: 40px;
@@ -310,7 +306,6 @@ main {
     margin-top: 50px;
     text-align: center;
     padding-top: 20px;
-    
 }
 
 .section5 footer button {
@@ -339,7 +334,6 @@ main {
 .footer-principal-main {
     padding: 10px 10px 50px 10px;
     max-width: 1200px;
-    /* border: 1px solid black; */
 }
 
 
@@ -402,7 +396,6 @@ main {
     flex-direction: column;
     gap: 20px;
     text-align: center;
-    
 }
 
 .footer-width {
@@ -459,7 +452,7 @@ main {
     font-size: 13px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .header-principal {
         width: 100%;
         display: flex;
@@ -565,7 +558,13 @@ main {
         width: 100%;
     }
 
+    .footer-info3 {
+        width: 100%;
+        
+    }
+
     .footer-info3 p {
+        word-wrap: break-word;
         font-size: 8px;
         height: 600;
     }
@@ -589,5 +588,9 @@ main {
 
     .footer-icon-social svg {
         width: 25px;
+    }
+    
+    .art2  {
+        width: 100%;
     }
 }
