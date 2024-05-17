@@ -536,7 +536,6 @@ main {
     .footer-info-ultimo {
         padding: 20px;
         width: 50%;
-        margin-left: 20px;
     }
 
 
@@ -614,6 +613,10 @@ main {
 
     .svg-info svg {
         width: 20px;
+    }
+
+    .footer-info3 p {
+        width: 100%;
     }
 
 }
