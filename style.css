@@ -452,6 +452,37 @@ main {
     font-size: 13px;
 }
 
+@media (min-width: 601px) and (max-width: 1280px) {
+    .footer-principal-main {
+        padding-bottom: 15px;
+    }
+    
+    .footer-principal-main section {
+        justify-content: space-evenly;
+        padding: 0;
+        gap: 0;
+    }
+
+    .footer-info {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footer-info-ultimo {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .logo-footer svg {
+        padding-right: 40px;
+    }
+
+    .empregos {
+        text-align: center;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
     .header-principal {
         width: 100%;
@@ -605,10 +636,6 @@ main {
 
     .svg-info svg {
         width: 25px;
-    }
-
-    .svg-info svg {
-        width: 20px;
     }
 
     .footer-info3 p {
