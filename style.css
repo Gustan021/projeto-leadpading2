@@ -281,7 +281,7 @@ main {
 }
 
 .noticia .pad-noticia {
-    padding: 10px;
+    padding: 0px 13px;
 }
 
 .noticia footer p {
@@ -293,6 +293,7 @@ main {
     text-align: left;
     font-weight: 500;
 }
+
 
 .section5 main footer {
     text-align: center;
@@ -326,239 +327,267 @@ main {
     text-align: center;
 }
 
-@media screen and (max-width: 700px) {
+.footer-principal {
+    background-color: #B91C1C;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    color: white;
+}
+
+.footer-principal-main {
+    padding: 10px 10px 50px 10px;
+    max-width: 1200px;
+    /* border: 1px solid black; */
+}
+
+
+.footer-principal-main section {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-left: 75px;
+    padding-right: 50px;
+    gap: 100px;
+}
+
+.logo-footer svg {
+    width: 180px;
+}
+
+.svg-info {
+    display: flex;
+    align-items: center;
+}
+
+.svg-info svg {
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px; 
+    margin-right: 10px;
+}
+
+.art-info {
+    display: flex;
+    text-align: center;
+}
+
+.footer-flex p {
+    margin-top: 2px;
+    text-align: left;
+    font-family: var(--fontmukta);
+    font-size: 15px;
+}
+
+.footer-flex span {
+    color: #F3F4F6;
+    font-size: 10px;
+    font-family: var(--fontinter);
+}
+
+.footer-info2 {
+    display: flex;
+    align-items: center;
+    font-family: var(--fontmukta);
+} 
+
+.footer-info2 p {
+    font-size: 12px;
+}
+
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.footer-width {
+    width: 30%;
+}
+
+.footer-info {
+    width: 25%;
+}
+
+.footer-info-ultimo {
+    width: 45%;
+}
+
+.footer-info-ultimo h4 {
+    font-size: 12px;
+    font-family: var(--fontmukta);
+    height: 600;
+}
+
+.footer-info-ultimo p {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #F3F4F6;
+    font-family: var(--fontinter);
+    height: 500;
+    line-height: 18px;
+}
+
+.footer-icon-social {
+    display: flex;
+    margin-top: 17px;
+    gap: 20px;
+}
+
+.footer-icon-social svg {
+    padding: 3px;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.footer-do-footer {
+    background-color: #AA1818;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer-do-footer p {
+    color: white;
+    text-align: center;
+    font-family: var(--fontinter);
+    font-size: 13px;
+}
+
+@media screen and (max-width: 400px) {
+    .header-principal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-principal nav {
+        padding-bottom: 5px;
+    }
+    
+    .icons-sociais {
+        position: absolute;
+        right: 0;
+        top: 0;
+        gap: 0;
+    }
+
+    .section1 {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .section1 main {
+        width: 100%;
+    }
+
     .section2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section4 {
         display: flex;
         flex-direction: column;
     }
 
     .empregos, .vagas {
-        padding: 20px;
-    }
-
-    .section4 .empregos {
-        text-align: center;
-        padding: 10px;
-    }
-
-    .art2 p {
-        max-width: 602px !important;
         width: 100%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .section5 .section5-pad {
-        width: 100%;
-    }
-
-    .art2 {
-        width: 100%;
-    }
-
-    .art2 p {
-        max-width: 1000px !important;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .header-principal {
-        display: block;
-        width: 400px;
-        margin: 0 auto;
-    }
-
-
-    header .header-logo {
-        text-align: center;        
-    }
-
-    header nav {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
-
-    header .icons-sociais {
-        display: flex;
-        padding-top: 10px;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    .section2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .section3 header {
-        text-align: center;
-    }
-
-    .section2 .art2 p {
-        width: 100%
-    }
-}
-
-
-@media screen and (max-width: 553px) {
-    header {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    header nav {
-        padding: 0;
-        text-align: center;
-        padding-bottom: 10px;
-    }
-
-    .icons-sociais {
-        order: -1;
-        position: absolute;
-        top: 0;
-        right: 0;
-        gap: 0;
-        width: 90px;
-        margin-right: 20px;
-    }
-
-    .section1 {
-        padding: 80px;
-    }
-
-    .section2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .section4 {
-        display: block;
     }
 
     .empregos {
-        width: 100%;
-    }
-
-    .vagas {
-        width: 100%;
-    }
-
-    .vagas article {
-        text-align: center;
-    }
-
-    .vagas h2 {
-        text-align: center;
-    }
-
-    .section4 .empregos {
-        height: 200px;
-    }
-
-    .midiabox { 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .midiabox footer {
-        width: 87%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: left;
-    }
-
-    .noticia main {
-        width: 100%;
-        display: flex;
-        justify-content: left;
-    }
-
-    .noticia footer {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .noticia footer {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .section1 p {
-        width: 100%;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .item-curso-diferente {
-        height: 195px;
-    }
-
-    .midiabox { 
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .section1 {
         padding: 50px;
-        padding-bottom: 220px;
+        text-align: center;
     }
 
-    .section1 p {
-        margin-top: 20px;
-        width: 300px;
-        position: absolute;
-        left: 10%;
-    }
-
-    .icons-sociais {
-        display: flex;
-        width: 70px;
-    }
-
-    .midiabox { 
+    .midiabox {
         display: flex;
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 390px) {
-    .section1 p {
-        max-width: 300px;
+    .footer-principal {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-principal main {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-principal-main section {
+        justify-content: normal;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-width {
         width: 100%;
     }
-}
 
-@media screen and (max-width: 370px) {
-    .section1 p {
-        font-size: 15px;
-        width: 80%;
+    .footer-info {
+        padding: 10px;
+        word-wrap: break-word;
+        width: 50%;
     }
 
-    .icons-sociais {
-        display: flex;
-        width: 70px;
+    .footer-info-ultimo {
+        padding: 10px;
+        width: 50%;
     }
 
-    .section5 {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .midiabox { 
-        display: flex;
-        flex-direction: column;
-    }
-
-    .header-principal {
+    .section-footer-final, .footer-principal, .footer-principal-main {
         width: 100%;
+        word-wrap: break-word;
+    }
+
+    .logo-footer svg {
+        width: 50px;
+    }
+
+    .footer-info  {
+        word-wrap: break-word;
+        width: 50%;
+    }
+
+    .footer-principal-main section {
+        gap: 0;
+        width: 100%;
+    }
+
+    .footer-info3 p {
+        font-size: 8px;
+        height: 600;
+    }
+
+    .red {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .section-footer-final {
+        flex-direction: column;
+    }
+
+    .logo-footer {
+        text-align: center;
+    }
+
+    .logo-footer svg {
+        width: 150px;
+    }
+
+    .footer-icon-social svg {
+        width: 25px;
     }
 }
