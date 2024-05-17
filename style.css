@@ -452,7 +452,7 @@ main {
     font-size: 13px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .header-principal {
         width: 100%;
         display: flex;
@@ -565,7 +565,7 @@ main {
 
     .footer-info3 p {
         word-wrap: break-word;
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .red {
