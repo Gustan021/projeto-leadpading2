@@ -593,7 +593,11 @@ main {
         width: 100%;
     }
 
-    .footer-do-footer {
-        font-size: 2px;
+    .footer-do-footer main {
+        padding: 10px;
+    }
+
+    .footer-do-footer p {
+        font-size: 10px;
     }
 }
