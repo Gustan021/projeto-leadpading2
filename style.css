@@ -581,9 +581,10 @@ main {
     
     .footer-principal-main {
         width: 100%;
+        padding-right: 20px;
         padding-bottom: 15px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .footer-principal-main section {
@@ -604,7 +605,7 @@ main {
 
     .footer-width {
         padding: 0 30px 30px 10px;
-        max-width: 400px;
+        /* max-width: 400px; */
         width: 100%;
     }
 
@@ -617,9 +618,11 @@ main {
         display: flex;
         justify-content: space-around;
     }
+
     .red {
         display: flex;
     }
+
 }   
 
 @media (min-width: 460px) and (max-width: 600px) {
