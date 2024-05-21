@@ -470,6 +470,8 @@ main {
 
     .header-principal nav ul, li a {
         gap: 50px;
+        font-size: 17px;
+        font-weight: 600;
     }
     
     .footer-principal-main section {
@@ -528,6 +530,7 @@ main {
 
     .vagas {
         position: relative;
+        overflow: hidden;
     }
 
     .vagas header h2 {
@@ -571,6 +574,39 @@ main {
 
     .footer-info-ultimo p {
         font-size: 15px;
+    }
+
+    .section5{
+        max-width: 70%;
+    }
+
+    .section5-pad {
+        gap: 50px;
+    }
+
+    .midiabox {
+        display: flex;
+        gap: 50px;
+    }
+
+    .noticia {
+        max-width: 350px;
+    }
+
+    .footer-do-footer p {
+        font-size: 17px;
+    }
+
+    .empregos {
+        font-size: 27px;
+    }
+
+    .icons-sociais {
+        gap: 20px;
+    }
+
+    .icons-sociais svg {
+        height: 25px;
     }
 }
 
@@ -623,6 +659,21 @@ main {
         display: flex;
     }
 
+    .header-principal {
+        max-width: 900px;
+    }
+
+    .header-principal nav ul, .header-principal li a {
+        font-size: 16px;
+    }
+
+    .icons-sociais {
+        gap: 20px;
+    }
+
+    .icons-sociais svg {
+        height: 25px;
+    }
 }   
 
 @media (min-width: 460px) and (max-width: 600px) {
@@ -790,6 +841,17 @@ main {
         width: 100%;
     }
 
+    .icons-sociais {
+        gap: 16px;
+    }
+
+    .icons-sociais svg {
+        height: 23px;
+    }
+
+    .footer-do-footer p {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 459px) {
@@ -898,5 +960,22 @@ main {
 
     .vagas {
         width: 100%;
+    }
+
+    .icons-sociais {
+        gap: 16px;
+    }
+
+    .icons-sociais svg {
+        height: 23px;
+    }
+
+    .item-curso {
+        width: 150px;
+    }
+
+    .section3 {
+        max-width: 350px ;
+        padding: 0;
     }
 }
