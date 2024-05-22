@@ -859,6 +859,10 @@ main {
 }
 
 @media screen and (max-width: 459px) {
+    .header-principal nav ul{
+        padding-bottom: 5px;
+    }
+
     .footer-principal-main {
         width: 100%;
     }
