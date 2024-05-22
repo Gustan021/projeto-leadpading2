@@ -35,6 +35,10 @@ header nav {
     padding-left: 20px;
 }
 
+.selected {
+    color: #B91C1C;
+}
+
 header nav ul, li a {
     display: flex;
     gap: 15px;
