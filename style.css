@@ -861,7 +861,7 @@ main {
 }
 
 @media screen and (max-width: 459px) {
-    .header-principal nav ul{
+    .header-principal nav ul {
         padding-bottom: 5px;
     }
 
